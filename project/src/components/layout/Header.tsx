@@ -14,7 +14,7 @@ export function Header() {
     { name: 'About', path: '/about' },
     { name: 'Portfolio', path: '/portfolio' },
     { name: 'Blog', path: '/blog' },
-    { name: 'Careers', path: '/careers' },
+    // { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },
   ];
 
