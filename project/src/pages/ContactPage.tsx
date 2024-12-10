@@ -56,7 +56,7 @@ const ContactPage: React.FC = () => {
               <MapPin className="text-indigo-400" size={24} />
               <div>
                 <strong>Address</strong>
-                <p>123 Innovation Way, Tech City, CA 94000</p>
+                <p>Vinayk Nagar, Kanpur ,U.P(208025)</p>
               </div>
             </div>
             
@@ -64,7 +64,7 @@ const ContactPage: React.FC = () => {
               <Phone className="text-indigo-400" size={24} />
               <div>
                 <strong>Phone</strong>
-                <p>(555) 123-4567</p>
+                <p>7348675182</p>
               </div>
             </div>
             
@@ -72,7 +72,7 @@ const ContactPage: React.FC = () => {
               <Mail className="text-indigo-400" size={24} />
               <div>
                 <strong>Email</strong>
-                <p>hello@techcompany.com</p>
+                <p>cawnpuriyacoders@gmail.com</p>
               </div>
             </div>
 
