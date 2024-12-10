@@ -6,7 +6,10 @@ import {
   Layers, 
   CloudLightning, 
   PieChart, 
-  CheckCircle2 
+  CheckCircle2,
+  Palette,
+  Brush,
+  Layout 
 } from 'lucide-react';
 
 // Service Card Type Definition
@@ -51,76 +54,44 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
 const ServicesPage: React.FC = () => {
   // Services Data
   const services: ServiceCardProps[] = [
+  
     {
-      icon: Code,
-      title: "Web Development",
-      description: "Crafting responsive and scalable web applications that drive business growth.",
+      icon: Layout,
+      title: "Web Design",
+      description: "Creating visually stunning and user-friendly website designs.",
       features: [
-        "Custom Frontend Development",
-        "Backend Infrastructure",
-        "API Integration",
-        "Performance Optimization"
+        "Responsive Design",
+        "Modern Aesthetic Layouts",
+        "Cross-Browser Compatibility",
+        "SEO-Friendly Designs"
       ]
     },
     {
-      icon: Laptop,
-      title: "Mobile App Solutions",
-      description: "Innovative mobile applications that provide seamless user experiences.",
+      icon: Brush,
+      title: "Graphic Design",
+      description: "Innovative visual solutions that communicate your brand's essence.",
       features: [
-        "iOS & Android Development",
-        "Cross-Platform Solutions",
-        "UI/UX Design",
-        "App Store Deployment"
+        "Brand Identity Design",
+        "Marketing Collateral",
+        "Digital & Print Graphics",
+        "Logo and Branding"
       ]
     },
     {
-      icon: Database,
-      title: "Cloud Services",
-      description: "Robust cloud infrastructure and migration strategies.",
+      icon: Palette,
+      title: "UI/UX Design",
+      description: "Designing intuitive and engaging user experiences.",
       features: [
-        "Cloud Architecture Design",
-        "Serverless Computing",
-        "Security Implementation",
-        "Scalable Solutions"
-      ]
-    },
-    {
-      icon: Layers,
-      title: "Enterprise Software",
-      description: "Comprehensive software solutions tailored for enterprise needs.",
-      features: [
-        "Custom ERP Systems",
-        "CRM Development",
-        "Process Automation",
-        "Integration Consulting"
-      ]
-    },
-    {
-      icon: CloudLightning,
-      title: "Digital Transformation",
-      description: "Strategic digital solutions to revolutionize your business model.",
-      features: [
-        "Technology Consulting",
-        "Digital Strategy",
-        "Process Reengineering",
-        "Innovation Workshops"
-      ]
-    },
-    {
-      icon: PieChart,
-      title: "Data Analytics",
-      description: "Transforming raw data into actionable business insights.",
-      features: [
-        "Data Visualization",
-        "Predictive Analytics",
-        "Machine Learning Models",
-        "Business Intelligence"
+        "User Research",
+        "Wireframing and Prototyping",
+        "User Interface Design",
+        "Interaction Design"
       ]
     }
   ];
 
   return (
-    <div className="relative min-h-screen mt-6 bg-gradient-to-br from-indigo-600 to-purple-700 py-16 px-4">
+    <div className="relative min-h-screen bg-gradient-to-br from-indigo-600 to-purple-700 py-16 px-4">
       {/* Background Shapes */}
       <div className="absolute top-0 right-0 w-72 h-72 bg-white/10 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-white/5 rounded-full blur-3xl animate-pulse delay-500"></div>
