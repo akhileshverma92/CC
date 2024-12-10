@@ -42,10 +42,10 @@ const HomePage: React.FC<HeroProps> = ({
                 <ArrowRight className="ml-2" size={20} />
               </button>
               
-              <button className="flex items-center border-2 border-white/50 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition transform hover:scale-105">
+{/*               <button className="flex items-center border-2 border-white/50 text-white px-6 py-3 rounded-full font-semibold hover:bg-white/10 transition transform hover:scale-105">
                 <Play className="mr-2 fill-white" size={20} />
                 {ctaSecondary}
-              </button>
+              </button> */}
             </div>
             
             {/* Social Proof */}
